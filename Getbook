@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GetBook - Second Hand Books</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: green;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+
+.phone {
+  color: green;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background: #fff;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+}
+
+.hero-text span {
+  color: green;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+}
+
+.search-box button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+/* Books */
+.section {
+  padding: 30px;
+}
+
+.books {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.book {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.book img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin-top: 10px;
+  padding: 8px;
+  text-align: center;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">📚 GetBook</div>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Books</a>
+    <a href="#">Sell</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="phone">📞 8018874661</div>
+</div>
+
+<!-- Hero Section -->
+<div class="hero">
+  <div class="hero-text">
+    <h1>Buy Quality Books, <br><span>Save More</span></h1>
+    <p>Best place to buy second hand books</p>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search books...">
+      <button>Search</button>
+    </div>
+  </div>
+
+  <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" width="300">
+</div>
+
+<!-- Books Section -->
+<div class="section">
+  <h2>Featured Books</h2>
+
+  <div class="books">
+
+    <div class="book">
+      <img src="https://via.placeholder.com/150">
+      <h4>Engineering Maths</h4>
+      <p class="price">₹200</p>
+      <a class="btn" href="https://wa.me/918018874661">Buy on WhatsApp</a>
+    </div>
+
+    <div class="book">
+      <img src="https://via.placeholder.com/150">
+      <h4>Physics Book</h4>
+      <p class="price">₹150</p>
+      <a class="btn" href="https://wa.me/918018874661">Buy on WhatsApp</a>
+    </div>
+
+    <div class="book">
+      <img src="https://via.placeholder.com/150">
+      <h4>Objective Maths</h4>
+      <p class="price">₹180</p>
+      <a class="btn" href="https://wa.me/918018874661">Buy on WhatsApp</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Sell Section -->
+<div class="section">
+  <h2>Sell Your Book</h2>
+  <p>Want to sell your old books?</p>
+  <a class="btn" href="https://wa.me/918018874661">Sell on WhatsApp</a>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <p>© 2026 GetBook | Contact: 8018874661</p>
+</div>
+
+</body>
+</html>
